@@ -17,7 +17,7 @@ The system uses a **Random Forest classifier** and **SHAP explainability** to pr
 - Mother-Child Health Index
 - Nutrition and government-scheme recommendations
 - ASHA Worker mode
-- Citizen mode with Gemini AI Health Assistant
+- Citizen mode with AI Health Assistant
 - Streamlit-based user interface
 
 ## Model Performance
