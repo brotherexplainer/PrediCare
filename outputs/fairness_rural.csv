@@ -1,0 +1,3 @@
+Group,N,Accuracy,Recall,Precision
+rural=0.0,9443,0.868,0.826,0.855
+rural=1.0,37141,0.872,0.901,0.848
