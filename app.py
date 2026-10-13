@@ -968,30 +968,6 @@ if 'predicare_result' in st.session_state:
 # VISUALIZATIONS
 # ============================================
 
-st.markdown("---")
-with st.expander("View Project Visualizations"):
-    chart_files = {
-        "Distribution"      : "outputs/chart1_distribution.png",
-        "Model Accuracy"    : "outputs/chart2_accuracy.png",
-        "Confusion Matrix"  : "outputs/chart3_confusion_matrix.png",
-        "Feature Importance": "outputs/chart4_feature_importance.png",
-        "Wealth vs Risk"    : "outputs/chart5_wealth_risk.png",
-        "Urban vs Rural"    : "outputs/chart6_urban_rural.png",
-        "SHAP Beeswarm"     : "outputs/shap_beeswarm_fixed.png",
-    }
-
-    tabs = st.tabs(list(chart_files.keys()))
-
-    for tab, (name, path) in zip(
-        tabs, chart_files.items()
-    ):
-        with tab:
-            if os.path.exists(path):
-                st.image(
-                    path, use_container_width=True
-                )
-            else:
-                st.warning(f"{name} chart not found")
 
 # ============================================
 # FOOTER
