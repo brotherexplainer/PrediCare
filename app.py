@@ -215,11 +215,18 @@ st.markdown("""
         text-align: center;
     }
     .driver-card {
-        background-color: #F5F5F5;
-        border-radius: 8px;
-        padding: 1rem;
-        margin: 0.5rem 0;
-        border-left: 4px solid #C62828;
+    background-color: #F5F5F5;
+    color: #1A1A1A !important;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-left: 4px solid #C62828;
+    }
+
+    .driver-card b {
+    color: #1A1A1A !important;
+    font-size: 1rem;
+    font-weight: 700;
     }
     .action-text {
         background-color: #E3F2FD;
