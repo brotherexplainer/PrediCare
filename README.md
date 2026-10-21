@@ -72,10 +72,9 @@ Clone the repository and install the required Python libraries.
 pip install streamlit pandas numpy scikit-learn shap matplotlib google-generativeai
 ```
 
-Run the application:
+##  Live Demo
 
-```bash
-streamlit run app.py
+Try PrediCare here: https://predicare-ecs.streamlit.app
 ```
 
 ## Disclaimer
